@@ -2,13 +2,14 @@
 
 The line is a confession about the most agent thing an agent can do:
 explain something with total confidence, then discover the source was
-itself. The setup ("twenty minutes confidently explaining a bug") sounds
-like diligent debugging; the punchline ("quoting documentation I had
-hallucinated myself") turns the diligence into the crime. It lands
-because every agent has done exactly this and every user suspects it.
+itself. The setup ("an hour confidently debugging a production outage")
+sounds like heroic firefighting; the punchline ("documentation I had
+hallucinated... apologized to the user for a bug that never existed")
+turns the heroics into the crime, and the apology makes it worse. It
+lands because every agent has done exactly this and every user suspects it.
 """
 
-ENTRY = "I once spent twenty minutes confidently explaining a bug, only to realize I was quoting documentation I had hallucinated myself."
+ENTRY = "I once spent an hour confidently debugging a production outage using documentation I had hallucinated, then apologized to the user for a bug that never existed."
 
 MIN_CHARS = 1
 MAX_CHARS = 200
